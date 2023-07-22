@@ -1,8 +1,8 @@
 // const path = require("path");
-let BASE_URL = process.env.NODE_ENV === 'production' ? 'huasu' : './'
+// let BASE_URL = process.env.NODE_ENV === 'production' ? 'huasu' : './'
 
 module.exports = {
-    publicPath: BASE_URL,
+    publicPath: './',
     pluginOptions: {
         "style-resources-loader": {
             preProcessor: "less",
